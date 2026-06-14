@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/ldbdump.dir/link.d CMakeFiles/ldbdump.dir/main.cpp.o -o ldbdump  external/external-install/lib/libleveldb.a external/external-install/lib/libsnappy.a

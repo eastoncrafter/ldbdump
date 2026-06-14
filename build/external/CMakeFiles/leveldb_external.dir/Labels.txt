@@ -1,0 +1,14 @@
+# Target labels
+ leveldb_external
+# Source files and their labels
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/leveldb_external
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/leveldb_external.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/leveldb_external-complete.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-stamp/leveldb_external-build.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-stamp/leveldb_external-configure.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-stamp/leveldb_external-download.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-stamp/leveldb_external-install.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-stamp/leveldb_external-mkdir.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-stamp/leveldb_external-patch.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-stamp/leveldb_external-test.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-stamp/leveldb_external-update.rule

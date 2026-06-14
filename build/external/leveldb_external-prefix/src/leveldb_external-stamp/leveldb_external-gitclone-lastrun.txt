@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/usr/local/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/tmp/leveldb_external-gitclone.cmake
+source_dir=/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external
+work_dir=/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src
+repository=https://github.com/google/leveldb.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+      

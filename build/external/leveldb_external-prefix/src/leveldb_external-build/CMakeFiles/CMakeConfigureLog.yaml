@@ -1,0 +1,1024 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Linux - 6.17.0-1018-azure - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/3.31.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4b675/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4b675.dir/build.make CMakeFiles/cmTC_4b675.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v'
+        Building C object CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b675.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4b675.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cceLq9zH.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: b220a7f1a1f69970d969d254ad9ec166
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b675.dir/'
+         as -v --64 -o CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o /tmp/cceLq9zH.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_4b675
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b675.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib' '-v' '-o' 'cmTC_4b675' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b675.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjNA7b6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b675 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 13.3.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjNA7b6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b675 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib' '-v' '-o' 'cmTC_4b675' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b675.'
+        /usr/bin/cc -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -v -Wl,-v CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o -o cmTC_4b675
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v'
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4b675/fast]
+        ignore line: [gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_4b675.dir/build.make CMakeFiles/cmTC_4b675.dir/build]
+        ignore line: [gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-NKuv5v']
+        ignore line: [Building C object CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b675.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4b675.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cceLq9zH.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b220a7f1a1f69970d969d254ad9ec166]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b675.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o /tmp/cceLq9zH.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_4b675]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b675.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib' '-v' '-o' 'cmTC_4b675' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b675.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjNA7b6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b675 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccjNA7b6.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4b675] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib] ==> dir [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjNA7b6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b675 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_4b675.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib] ==> [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib;/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a71bd/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a71bd.dir/build.make CMakeFiles/cmTC_a71bd.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX'
+        Building CXX object CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include    -v -o CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
+        COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-v' '-o' 'CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a71bd.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -I /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a71bd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccXeq3nr.s
+        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 7896445e4990772fdae9dc0659a99266
+        COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-v' '-o' 'CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a71bd.dir/'
+         as -v -I /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include --64 -o CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXeq3nr.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-v' '-o' 'CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a71bd
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a71bd.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib' '-v' '-o' 'cmTC_a71bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a71bd.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7RpAgV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a71bd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 13.3.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7RpAgV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a71bd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib' '-v' '-o' 'cmTC_a71bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a71bd.'
+        /usr/bin/c++ -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -v -Wl,-v CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a71bd
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX'
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include]
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include] ==> [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include]
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include;/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a71bd/fast]
+        ignore line: [gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a71bd.dir/build.make CMakeFiles/cmTC_a71bd.dir/build]
+        ignore line: [gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-2cVxmX']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include    -v -o CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-v' '-o' 'CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a71bd.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -I /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a71bd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccXeq3nr.s]
+        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 7896445e4990772fdae9dc0659a99266]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-v' '-o' 'CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a71bd.dir/']
+        ignore line: [ as -v -I /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include --64 -o CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXeq3nr.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-v' '-o' 'CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a71bd]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a71bd.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include' '-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib' '-v' '-o' 'cmTC_a71bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a71bd.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7RpAgV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a71bd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc7RpAgV.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a71bd] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib] ==> dir [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7RpAgV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a71bd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_a71bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib] ==> [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib;/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:38 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-zh6pmk"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-zh6pmk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-zh6pmk'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7807b/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-zh6pmk'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7807b.dir/build.make CMakeFiles/cmTC_7807b.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-zh6pmk'
+        Building C object CMakeFiles/cmTC_7807b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c11 -o CMakeFiles/cmTC_7807b.dir/CheckIncludeFile.c.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-zh6pmk/CheckIncludeFile.c
+        Linking C executable cmTC_7807b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7807b.dir/link.txt --verbose=1
+        /usr/bin/cc  -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_7807b.dir/CheckIncludeFile.c.o -o cmTC_7807b
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-zh6pmk'
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-zh6pmk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "CMakeLists.txt:41 (check_library_exists)"
+    checks:
+      - "Looking for crc32c_value in crc32c"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-CDB6h2"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-CDB6h2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_CRC32C"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-CDB6h2'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2f7bb/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-CDB6h2'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2f7bb.dir/build.make CMakeFiles/cmTC_2f7bb.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-CDB6h2'
+        Building C object CMakeFiles/cmTC_2f7bb.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c11 -o CMakeFiles/cmTC_2f7bb.dir/CheckFunctionExists.c.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-CDB6h2/CheckFunctionExists.c
+        Linking C executable cmTC_2f7bb
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f7bb.dir/link.txt --verbose=1
+        /usr/bin/ld: cannot find -lcrc32c: No such file or directory
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_2f7bb.dir/CheckFunctionExists.c.o -o cmTC_2f7bb  -lcrc32c
+        gmake[4]: *** [CMakeFiles/cmTC_2f7bb.dir/build.make:102: cmTC_2f7bb] Error 1
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-CDB6h2'
+        gmake[3]: *** [Makefile:134: cmTC_2f7bb/fast] Error 2
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-CDB6h2'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "CMakeLists.txt:42 (check_library_exists)"
+    checks:
+      - "Looking for snappy_compress in snappy"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-wJv0X8"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-wJv0X8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_SNAPPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-wJv0X8'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4b5e7/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-wJv0X8'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4b5e7.dir/build.make CMakeFiles/cmTC_4b5e7.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-wJv0X8'
+        Building C object CMakeFiles/cmTC_4b5e7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c11 -o CMakeFiles/cmTC_4b5e7.dir/CheckFunctionExists.c.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-wJv0X8/CheckFunctionExists.c
+        Linking C executable cmTC_4b5e7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b5e7.dir/link.txt --verbose=1
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `snappy::Uncompress(char const*, unsigned long, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)':
+        snappy.cc:(.text+0x2e09): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::max_size() const'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `snappy::Compress(char const*, unsigned long, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, snappy::CompressionOptions)':
+        snappy.cc:(.text+0x3292): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::erase(unsigned long, unsigned long)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `snappy::CompressFromIOVec(iovec const*, unsigned long, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, snappy::CompressionOptions)':
+        snappy.cc:(.text+0x33df): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::erase(unsigned long, unsigned long)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `snappy::STLStringResizeUninitialized(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, unsigned long)':
+        snappy.cc:(.text._ZN6snappy28STLStringResizeUninitializedEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm[_ZN6snappy28STLStringResizeUninitializedEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm]+0x23): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::resize(unsigned long)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `snappy::string_as_array(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)':
+        snappy.cc:(.text._ZN6snappy15string_as_arrayEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN6snappy15string_as_arrayEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x27): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::empty() const'
+        /usr/bin/ld: snappy.cc:(.text._ZN6snappy15string_as_arrayEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN6snappy15string_as_arrayEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x3e): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::begin()'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `snappy::SnappyIOVecReader::~SnappyIOVecReader()':
+        snappy.cc:(.text._ZN6snappy17SnappyIOVecReaderD0Ev[_ZN6snappy17SnappyIOVecReaderD5Ev]+0x24): undefined reference to `operator delete(void*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `snappy::SnappySinkAllocator::Allocate(int)':
+        snappy.cc:(.text._ZN6snappy19SnappySinkAllocator8AllocateEi[_ZN6snappy19SnappySinkAllocator8AllocateEi]+0x32): undefined reference to `operator new[](unsigned long)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `snappy::SnappySinkAllocator::Deleter(void*, char const*, unsigned long)':
+        snappy.cc:(.text._ZN6snappy19SnappySinkAllocator7DeleterEPvPKcm[_ZN6snappy19SnappySinkAllocator7DeleterEPvPKcm]+0x27): undefined reference to `operator delete[](void*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::__new_allocator<char>::allocate(unsigned long, void const*)':
+        snappy.cc:(.text._ZNSt15__new_allocatorIcE8allocateEmPKv[_ZNSt15__new_allocatorIcE8allocateEmPKv]+0x3f): undefined reference to `std::__throw_bad_alloc()'
+        /usr/bin/ld: snappy.cc:(.text._ZNSt15__new_allocatorIcE8allocateEmPKv[_ZNSt15__new_allocatorIcE8allocateEmPKv]+0x4b): undefined reference to `operator new(unsigned long)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::__new_allocator<char>::deallocate(char*, unsigned long)':
+        snappy.cc:(.text._ZNSt15__new_allocatorIcE10deallocateEPcm[_ZNSt15__new_allocatorIcE10deallocateEPcm]+0x20): undefined reference to `operator delete(void*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::vector<snappy::SnappySinkAllocator::Datablock, std::allocator<snappy::SnappySinkAllocator::Datablock> >::_M_check_len(unsigned long, char const*) const':
+        snappy.cc:(.text._ZNKSt6vectorIN6snappy19SnappySinkAllocator9DatablockESaIS2_EE12_M_check_lenEmPKc[_ZNKSt6vectorIN6snappy19SnappySinkAllocator9DatablockESaIS2_EE12_M_check_lenEmPKc]+0x5f): undefined reference to `std::__throw_length_error(char const*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::pair<unsigned char const*, long> snappy::DecompressBranchless<char*>(unsigned char const*, unsigned char const*, long, char*, long)':
+        snappy.cc:(.text._ZN6snappy20DecompressBranchlessIPcEESt4pairIPKhlES4_S4_lT_l[_ZN6snappy20DecompressBranchlessIPcEESt4pairIPKhlES4_S4_lT_l]+0x4e4): undefined reference to `__cxa_guard_acquire'
+        /usr/bin/ld: snappy.cc:(.text._ZN6snappy20DecompressBranchlessIPcEESt4pairIPKhlES4_S4_lT_l[_ZN6snappy20DecompressBranchlessIPcEESt4pairIPKhlES4_S4_lT_l]+0x519): undefined reference to `__cxa_guard_release'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::__new_allocator<snappy::SnappySinkAllocator::Datablock>::deallocate(snappy::SnappySinkAllocator::Datablock*, unsigned long)':
+        snappy.cc:(.text._ZNSt15__new_allocatorIN6snappy19SnappySinkAllocator9DatablockEE10deallocateEPS2_m[_ZNSt15__new_allocatorIN6snappy19SnappySinkAllocator9DatablockEE10deallocateEPS2_m]+0x20): undefined reference to `operator delete(void*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::__new_allocator<snappy::SnappySinkAllocator::Datablock>::allocate(unsigned long, void const*)':
+        snappy.cc:(.text._ZNSt15__new_allocatorIN6snappy19SnappySinkAllocator9DatablockEE8allocateEmPKv[_ZNSt15__new_allocatorIN6snappy19SnappySinkAllocator9DatablockEE8allocateEmPKv]+0x4f): undefined reference to `std::__throw_bad_array_new_length()'
+        /usr/bin/ld: snappy.cc:(.text._ZNSt15__new_allocatorIN6snappy19SnappySinkAllocator9DatablockEE8allocateEmPKv[_ZNSt15__new_allocatorIN6snappy19SnappySinkAllocator9DatablockEE8allocateEmPKv]+0x54): undefined reference to `std::__throw_bad_alloc()'
+        /usr/bin/ld: snappy.cc:(.text._ZNSt15__new_allocatorIN6snappy19SnappySinkAllocator9DatablockEE8allocateEmPKv[_ZNSt15__new_allocatorIN6snappy19SnappySinkAllocator9DatablockEE8allocateEmPKv]+0x64): undefined reference to `operator new(unsigned long)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::__new_allocator<char*>::deallocate(char**, unsigned long)':
+        snappy.cc:(.text._ZNSt15__new_allocatorIPcE10deallocateEPS0_m[_ZNSt15__new_allocatorIPcE10deallocateEPS0_m]+0x20): undefined reference to `operator delete(void*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::vector<char*, std::allocator<char*> >::_M_check_len(unsigned long, char const*) const':
+        snappy.cc:(.text._ZNKSt6vectorIPcSaIS0_EE12_M_check_lenEmPKc[_ZNKSt6vectorIPcSaIS0_EE12_M_check_lenEmPKc]+0x5f): undefined reference to `std::__throw_length_error(char const*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy.cc.o): in function `std::__new_allocator<char*>::allocate(unsigned long, void const*)':
+        snappy.cc:(.text._ZNSt15__new_allocatorIPcE8allocateEmPKv[_ZNSt15__new_allocatorIPcE8allocateEmPKv]+0x4f): undefined reference to `std::__throw_bad_array_new_length()'
+        /usr/bin/ld: snappy.cc:(.text._ZNSt15__new_allocatorIPcE8allocateEmPKv[_ZNSt15__new_allocatorIPcE8allocateEmPKv]+0x54): undefined reference to `std::__throw_bad_alloc()'
+        /usr/bin/ld: snappy.cc:(.text._ZNSt15__new_allocatorIPcE8allocateEmPKv[_ZNSt15__new_allocatorIPcE8allocateEmPKv]+0x64): undefined reference to `operator new(unsigned long)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy-sinksource.cc.o): in function `snappy::Source::~Source()':
+        snappy-sinksource.cc:(.text+0x42): undefined reference to `operator delete(void*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy-sinksource.cc.o): in function `snappy::Sink::~Sink()':
+        snappy-sinksource.cc:(.text+0x8a): undefined reference to `operator delete(void*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy-sinksource.cc.o): in function `snappy::ByteArraySource::~ByteArraySource()':
+        snappy-sinksource.cc:(.text+0x18e): undefined reference to `operator delete(void*)'
+        /usr/bin/ld: /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib/libsnappy.a(snappy-sinksource.cc.o): in function `snappy::UncheckedByteArraySink::~UncheckedByteArraySink()':
+        snappy-sinksource.cc:(.text+0x268): undefined reference to `operator delete(void*)'
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_4b5e7.dir/CheckFunctionExists.c.o -o cmTC_4b5e7  -lsnappy
+        gmake[4]: *** [CMakeFiles/cmTC_4b5e7.dir/build.make:102: cmTC_4b5e7] Error 1
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-wJv0X8'
+        gmake[3]: *** [Makefile:134: cmTC_4b5e7/fast] Error 2
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-wJv0X8'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "CMakeLists.txt:43 (check_library_exists)"
+    checks:
+      - "Looking for malloc in tcmalloc"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_TCMALLOC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a51e1/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a51e1.dir/build.make CMakeFiles/cmTC_a51e1.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz'
+        Building C object CMakeFiles/cmTC_a51e1.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c11 -o CMakeFiles/cmTC_a51e1.dir/CheckFunctionExists.c.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+        /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+          +++ |+#include <stdlib.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_a51e1
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a51e1.dir/link.txt --verbose=1
+        /usr/bin/ld: cannot find -ltcmalloc: No such file or directory
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_a51e1.dir/CheckFunctionExists.c.o -o cmTC_a51e1  -ltcmalloc
+        gmake[4]: *** [CMakeFiles/cmTC_a51e1.dir/build.make:102: cmTC_a51e1] Error 1
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz'
+        gmake[3]: *** [Makefile:134: cmTC_a51e1/fast] Error 2
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzyyDz'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCXXSymbolExists.cmake:74 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:51 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for fdatasync"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzHs4T"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzHs4T"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_FDATASYNC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzHs4T'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3b35a/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzHs4T'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3b35a.dir/build.make CMakeFiles/cmTC_3b35a.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzHs4T'
+        Building CXX object CMakeFiles/cmTC_3b35a.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c++11 -o CMakeFiles/cmTC_3b35a.dir/CheckSymbolExists.cxx.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzHs4T/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_3b35a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b35a.dir/link.txt --verbose=1
+        /usr/bin/c++ -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_3b35a.dir/CheckSymbolExists.cxx.o -o cmTC_3b35a
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzHs4T'
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-TzHs4T'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCXXSymbolExists.cmake:74 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:52 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for F_FULLFSYNC"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_FULLFSYNC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_08a39/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_08a39.dir/build.make CMakeFiles/cmTC_08a39.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU'
+        Building CXX object CMakeFiles/cmTC_08a39.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c++11 -o CMakeFiles/cmTC_08a39.dir/CheckSymbolExists.cxx.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU/CheckSymbolExists.cxx
+        /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
+            8 |   return ((int*)(&F_FULLFSYNC))[argc];
+              |                   ^~~~~~~~~~~
+        gmake[4]: *** [CMakeFiles/cmTC_08a39.dir/build.make:81: CMakeFiles/cmTC_08a39.dir/CheckSymbolExists.cxx.o] Error 1
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU'
+        gmake[3]: *** [Makefile:134: cmTC_08a39/fast] Error 2
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-b5q0gU'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCXXSymbolExists.cmake:74 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:53 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for O_CLOEXEC"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-E13cyG"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-E13cyG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_O_CLOEXEC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-E13cyG'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_14690/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-E13cyG'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_14690.dir/build.make CMakeFiles/cmTC_14690.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-E13cyG'
+        Building CXX object CMakeFiles/cmTC_14690.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c++11 -o CMakeFiles/cmTC_14690.dir/CheckSymbolExists.cxx.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-E13cyG/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_14690
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14690.dir/link.txt --verbose=1
+        /usr/bin/c++ -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_14690.dir/CheckSymbolExists.cxx.o -o cmTC_14690
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-E13cyG'
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-E13cyG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:82 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CLANG_THREAD_SAFETY"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-QdKehx"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-QdKehx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_CLANG_THREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-QdKehx'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aca3c/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-QdKehx'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_aca3c.dir/build.make CMakeFiles/cmTC_aca3c.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-QdKehx'
+        Building CXX object CMakeFiles/cmTC_aca3c.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CLANG_THREAD_SAFETY  -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c++11   -Wthread-safety -o CMakeFiles/cmTC_aca3c.dir/src.cxx.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-QdKehx/src.cxx
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        gmake[4]: *** [CMakeFiles/cmTC_aca3c.dir/build.make:81: CMakeFiles/cmTC_aca3c.dir/src.cxx.o] Error 1
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-QdKehx'
+        gmake[3]: *** [Makefile:134: cmTC_aca3c/fast] Error 2
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-QdKehx'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:85 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-1ie6vM"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-1ie6vM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-1ie6vM'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8d2e3/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-1ie6vM'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8d2e3.dir/build.make CMakeFiles/cmTC_8d2e3.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-1ie6vM'
+        Building CXX object CMakeFiles/cmTC_8d2e3.dir/src.cxx.o
+        /usr/bin/c++ -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS  -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c++11   -Wno-missing-field-initializers -o CMakeFiles/cmTC_8d2e3.dir/src.cxx.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-1ie6vM/src.cxx
+        Linking CXX executable cmTC_8d2e3
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d2e3.dir/link.txt --verbose=1
+        /usr/bin/c++ -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_8d2e3.dir/src.cxx.o -o cmTC_8d2e3
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-1ie6vM'
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-1ie6vM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:91 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_CXX17_HAS_INCLUDE"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-m50xMe"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-m50xMe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "HAVE_CXX17_HAS_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-m50xMe'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c5f58/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-m50xMe'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c5f58.dir/build.make CMakeFiles/cmTC_c5f58.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-m50xMe'
+        Building CXX object CMakeFiles/cmTC_c5f58.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX17_HAS_INCLUDE  -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c++11 -o CMakeFiles/cmTC_c5f58.dir/src.cxx.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-m50xMe/src.cxx
+        Linking CXX executable cmTC_c5f58
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5f58.dir/link.txt --verbose=1
+        /usr/bin/c++ -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_c5f58.dir/src.cxx.o -o cmTC_c5f58
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-m50xMe'
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-m50xMe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:281 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-FWXfun"
+      binary: "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-FWXfun"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-FWXfun'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e2021/fast
+        gmake[3]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-FWXfun'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e2021.dir/build.make CMakeFiles/cmTC_e2021.dir/build
+        gmake[4]: Entering directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-FWXfun'
+        Building C object CMakeFiles/cmTC_e2021.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wstrict-prototypes -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -std=c11 -o CMakeFiles/cmTC_e2021.dir/src.c.o -c /home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-FWXfun/src.c
+        Linking C executable cmTC_e2021
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2021.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wstrict-prototypes -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib  -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib CMakeFiles/cmTC_e2021.dir/src.c.o -o cmTC_e2021
+        gmake[4]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-FWXfun'
+        gmake[3]: Leaving directory '/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external-build/CMakeFiles/CMakeScratch/TryCompile-FWXfun'
+        
+      exitCode: 0
+...
