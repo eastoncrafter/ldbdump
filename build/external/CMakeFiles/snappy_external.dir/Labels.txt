@@ -1,0 +1,14 @@
+# Target labels
+ snappy_external
+# Source files and their labels
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/snappy_external
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/snappy_external.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/snappy_external-complete.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-build.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-configure.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-download.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-install.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-mkdir.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-patch.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-test.rule
+/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-update.rule

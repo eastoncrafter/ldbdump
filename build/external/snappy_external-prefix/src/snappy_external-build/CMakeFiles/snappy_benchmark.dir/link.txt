@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wno-sign-compare -fno-exceptions -fno-rtti -Wl,--dependency-file=CMakeFiles/snappy_benchmark.dir/link.d CMakeFiles/snappy_benchmark.dir/snappy_benchmark.cc.o -o snappy_benchmark  libsnappy_test_support.a third_party/benchmark/src/libbenchmark_main.a libsnappy.a -lz -llz4 third_party/benchmark/src/libbenchmark.a -lrt

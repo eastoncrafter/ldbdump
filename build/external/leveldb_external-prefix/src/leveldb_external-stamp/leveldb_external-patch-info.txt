@@ -1,0 +1,6 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The update step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command=patch;--batch;--dry-run;--reverse;--silent;-p1;<;/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/external/leveldb.compaction.patch;&&;echo;Patch already applied;||;patch;--forward;-p1;<;/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/external/leveldb.compaction.patch
+work_dir=/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/leveldb_external-prefix/src/leveldb_external

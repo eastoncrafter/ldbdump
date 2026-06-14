@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/snappy_external"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/snappy_external.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/CMakeFiles/snappy_external-complete.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-build.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-configure.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-download.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-install.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-mkdir.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-patch.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-test.rule"
+		},
+		{
+			"file" : "/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/snappy_external-prefix/src/snappy_external-stamp/snappy_external-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"snappy_external"
+		],
+		"name" : "snappy_external"
+	}
+}

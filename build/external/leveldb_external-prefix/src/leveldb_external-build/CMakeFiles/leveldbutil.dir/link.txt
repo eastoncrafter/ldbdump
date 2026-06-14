@@ -1,0 +1,1 @@
+/usr/bin/c++ -I/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/include -fno-exceptions -fno-rtti -L/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install/lib -Wl,--dependency-file=CMakeFiles/leveldbutil.dir/link.d CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o -o leveldbutil  libleveldb.a

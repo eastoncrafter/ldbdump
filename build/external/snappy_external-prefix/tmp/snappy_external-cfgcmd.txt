@@ -1,0 +1,1 @@
+cmd='/usr/local/bin/cmake;-DCMAKE_TOOLCHAIN_FILE=;-DSNAPPY_BUILD_TESTS=OFF;-DCMAKE_INSTALL_PREFIX=/home/runner/work/ldbdump/ldbdump/eastoncrafter/ldbdump/build/external/external-install;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
